@@ -246,7 +246,7 @@ However, the third part of the program is very interesting:
 #                 if not atomdata:   
 #                     break
                   if atomdata[1] != 'T':
-                      continue
+#                     continue
                       atomicnumber = atomdata[2]
                       x, y, z = atomdata[4:7]
                       ATOMIC_NUMBERS.append(atomicnumber)
